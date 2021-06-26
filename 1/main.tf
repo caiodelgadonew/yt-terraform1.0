@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "default" {
   acl    = "private"
 
   tags = { 
-    Name = "User Sample Bucket"
+    Name = "Caio Delgado Sample Bucket"
     Environment = "Development"
   }
 }
